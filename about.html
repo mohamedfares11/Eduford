@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford | Four Template</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="./img/logo.png" alt="Logo"></a>
+
+            <div class="links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active"><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start About Us Content -->
+    <Section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure ab, voluptates explicabo nostrum ea tempora impedit recusandae amet. Deleniti minima itaque optio quis neque corrupti veniam reiciendis possimus quidem ratione explicabo dolore debitis, eaque corporis adipisci sequi consectetur dolorem alias vel ipsam natus! Vero consequuntur culpa beatae consectetur vel!</p>
+                <a href="" class="hero-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./img/about.jpg" alt="About">
+            </div>
+        </div>
+    </Section>
+    <!-- End About Us Content -->
+
+
+
+
+
+   <!-- Start Footer -->
+   <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rerum, eaque deleniti <br />ipsum eveniet sed temporibus pariatur ducimus, esse possimus accusantium minus, </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Made By <span>Mohamed Fares</span></p>
+   </section>
+   <!-- End Footer -->
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
